@@ -21,37 +21,37 @@ const Navbar = () => {
               <div className="ml-3 mr-3 flex space-x-3">
                 <Link
                   href="/create-prompt"
-                  className="text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+                  className="text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
                 >
                   전문프롬프트제작
                 </Link>
                 <Link
                   href="/bank"
-                  className="text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+                  className="text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
                 >
                   프롬프트뱅크
                 </Link>
                 <Link
                   href="help"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+                  className="text-gray-300 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
                 >
                   Help Center
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+                  className="text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
                 >
                   Contact us
                 </Link>
                 <Link
                   href="/faq"
-                  className="text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+                  className="text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
                 >
                   FAQs
                 </Link>
                 <Link
                   href="/references"
-                  className="text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+                  className="text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
                 >
                   구축사례
                 </Link>
@@ -109,37 +109,37 @@ const Navbar = () => {
           <div className="bg-pink-500 px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               href="/create-prompt"
-              className="block text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+              className="block text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
             >
               전문프롬프트제작
             </Link>
             <Link
               href="/bank"
-              className="block text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+              className="block text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
             >
               프롬프트뱅크
             </Link>
             <Link
               href="help"
-              className="block text-gray-300 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+              className="block text-gray-300 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
             >
               Help Center
             </Link>
             <Link
               href="/contact"
-              className="block text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+              className="block text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
             >
               Contact us
             </Link>
             <Link
               href="/faq"
-              className="block text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+              className="block text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
             >
               FAQs
             </Link>
             <Link
               href="/references"
-              className="block text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
+              className="block text-gray-100 hover:bg-pink-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
             >
               구축사례
             </Link>
