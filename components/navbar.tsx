@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from 'next/image'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-0">
         <div className=" flex pr-3 items-center justify-end h-12">
           <Link href="/" className="pr-5">
-            <img src="/logo.png" alt="logo" width={70} height={40} />
+            <Image src="/logo.png" alt="logo" width={70} height={40} />
           </Link>
           <div className=" bg-pink-500 rounded-md">
             <div className=" hidden md:block">
