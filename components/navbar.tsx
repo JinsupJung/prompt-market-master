@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link href="/" className="pr-5">
             <img src="/logo.png" alt="logo" width={70} height={40} />
           </Link>
-          <div className=" bg-blue-800">
+          <div className=" bg-pink-500 rounded-md">
             <div className=" hidden md:block">
               <div className="ml-3 mr-3 flex space-x-3">
                 <Link
@@ -62,7 +62,7 @@ const Navbar = () => {
             <button
               onClick={toggleNavbar}
               type="button"
-              className="bg-blue-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className="bg-pink-500 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-pink-800 focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -106,7 +106,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden" id="mobile-menu">
-          <div className="bg-blue-800 px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="bg-pink-500 px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link
               href="/create-prompt"
               className="block text-gray-100 hover:bg-gray-700 hover:text-white px-0 py-1 rounded-md text-sm font-medium"
