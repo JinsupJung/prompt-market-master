@@ -985,7 +985,7 @@ exports.DiagConsoleLogger = DiagConsoleLogger; //# sourceMappingURL=consoleLogge
 
 /***/ }),
 
-/***/ 1254:
+/***/ 8421:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -1169,7 +1169,7 @@ Object.defineProperty(exports, "baggageEntryMetadataFromString", ({
 __exportStar(__webpack_require__(2482), exports);
 __exportStar(__webpack_require__(3669), exports);
 __exportStar(__webpack_require__(7007), exports);
-__exportStar(__webpack_require__(1254), exports);
+__exportStar(__webpack_require__(8421), exports);
 __exportStar(__webpack_require__(3458), exports);
 __exportStar(__webpack_require__(3110), exports);
 __exportStar(__webpack_require__(7266), exports);
@@ -1281,7 +1281,7 @@ exports["default"] = {
 exports.unregisterGlobal = exports.getGlobal = exports.registerGlobal = void 0;
 var platform_1 = __webpack_require__(479);
 var version_1 = __webpack_require__(6031);
-var semver_1 = __webpack_require__(9354);
+var semver_1 = __webpack_require__(108);
 var major = version_1.VERSION.split(".")[0];
 var GLOBAL_OPENTELEMETRY_API_KEY = Symbol.for("opentelemetry.js.api." + major);
 var _global = platform_1._globalThis;
@@ -1331,7 +1331,7 @@ exports.unregisterGlobal = unregisterGlobal; //# sourceMappingURL=global-utils.j
 
 /***/ }),
 
-/***/ 9354:
+/***/ 108:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3573,7 +3573,7 @@ function cleanURL(urlString) {
 
 /***/ }),
 
-/***/ 6850:
+/***/ 1090:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3838,7 +3838,7 @@ const _resolvehandlererror = __webpack_require__(5580);
 const _routekind = __webpack_require__(3624);
 const _log = /*#__PURE__*/ _interop_require_wildcard(__webpack_require__(6490));
 const _autoimplementmethods = __webpack_require__(9019);
-const _getnonstaticmethods = __webpack_require__(6850);
+const _getnonstaticmethods = __webpack_require__(1090);
 const _requestcookies = __webpack_require__(127);
 const _cookies = __webpack_require__(8306);
 const _headers = __webpack_require__(1778);
