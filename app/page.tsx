@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="prose dark:prose-invert">
+    <div>
     <Image
       src="/create-prompt.png"
-      width={1000}
+      width={1800}
       height={1500}
       alt="Picture of the prompt"
     />
