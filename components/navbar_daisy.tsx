@@ -5,7 +5,6 @@ import Image from "next/image";
 import classNames from "classnames";
 
 const Navbar = () => {
-
   const [isOpen, setIsOpen] = useState(false);
   const [menuToggle, setMenuToggle] = useState(false);
 
@@ -14,14 +13,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-100 sticky top-0 ">
+    <nav className="bg-gray-100">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between">
           {/* 메뉴1 */}
           <div className="flex space-x-4">
             <div>
               <Link
-                href="/hero"
+                href="/"
                 className="flex items-center py-5 px-2 text-gray-700"
               >
                 <Image src="/logo.png" alt="logo" width={120} height={70} />

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
+    <div> 
     <Image
       src="/create-prompt.png"
       width={1800}
